@@ -1,14 +1,3 @@
-cc_binary(
-    name = "protoc_gen_nos_client_cpp",
-    srcs = [
-        "main.cpp",
-    ],
-    copts = [
-        "-std=c++11",
-    ],
-    visibility = ["//visibility:public"],
-    deps = [
-        "//host/generic/nugget/proto:nugget_protobuf_options_cc_proto",
-        "@com_google_protobuf//:protoc_lib",
-    ],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b0f5486dedd26e7ad6e1dd113d6b4ab4ede7bd47b0c9835fdd35ae55cee92c87
+size 315

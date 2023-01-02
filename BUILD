@@ -1,15 +1,3 @@
-cc_library(
-    name = "nos_headers",
-    hdrs = [
-        "nugget/include/app_nugget.h",
-        "nugget/include/app_transport_test.h",
-        "nugget/include/application.h",
-        "nugget/include/avb.h",
-        "nugget/include/citadel_events.h",
-        "nugget/include/flash_layout.h",
-        "nugget/include/keymaster.h",
-        "nugget/include/signed_header.h",
-    ],
-    strip_include_prefix = "nugget/include/",
-    visibility = ["//visibility:public"],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e37ce8eaaafe0ac6e8f034b8f1d9211990d32c76d438e9416efda717564e5b0
+size 470

@@ -1,0 +1,11 @@
+Android.bp filter=lfs diff=lfs merge=lfs -text
+BUILD filter=lfs diff=lfs merge=lfs -text
+libnos_datagram filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_APACHE2 filter=lfs diff=lfs merge=lfs -text
+nugget filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+libnos filter=lfs diff=lfs merge=lfs -text
+libnos_transport filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
